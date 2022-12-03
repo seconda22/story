@@ -1,0 +1,299 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+a:active, a:hover,a{
+  text-decoration: none;
+  color: #666;
+}
+.wrapper{
+    background-image: url('./src/img/background.jpg');
+    width: 1946px;
+    height: 1045px;
+    display: flex;
+}
+.center{
+    width: 33%;
+    display: flex;
+}
+.ural{
+    display: flex;
+    position: relative;
+    width: 33%;
+}
+.nearAlaska{
+    width: 33%;
+    position: relative;
+    display: flex;
+}
+.b-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.m-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.altai_aria{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 85%;
+    left: 4%;
+}
+.altai_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.altai_aria:hover .text{
+    opacity: 1;
+}
+.altai_aria:hover .b-circle{
+    background-color: red;
+}
+
+.bashkiria_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 92%;
+    left: 23%;
+    align-items: center;
+}
+.bashkiria_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.bashkiria_aria:hover .text{
+    opacity: 1;
+}
+.bashkiria_aria:hover .b-circle{
+    background-color: red;
+}
+
+
+.buratia_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 86%;
+    left: 71%;
+    align-items: center;
+}
+.buratia_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.buratia_aria:hover .text{
+    opacity: 1;
+}
+.buratia_aria:hover .b-circle{
+    background-color: red;
+}
+
+.karelia_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 38%;
+    left: 21%;
+    align-items: center;
+}
+.karelia_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.karelia_aria:hover .text{
+    opacity: 1;
+}
+.karelia_aria:hover .b-circle{
+    background-color: red;
+}
+
+.mariel_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 77%;
+    left: 32%;
+    align-items: center;
+}
+.mariel_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+    visibility: hidden;
+}
+.mariel_aria:hover .text{
+    opacity: 1;
+    visibility: visible;
+}
+.mariel_aria:hover .m-circle{
+    background-color: red;
+}
+
+.mordovia_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+    align-items: center;
+}
+.mordovia_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.mordovia_aria:hover .text{
+    opacity: 1;
+}
+.mordovia_aria:hover .m-circle{
+    background-color: red;
+}
+
+.moscow_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 63%;
+    left: 13%;
+    align-items: center;
+}
+.moscow_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.moscow_aria:hover .text{
+    opacity: 1;
+}
+.moscow_aria:hover .m-circle{
+    background-color: red;
+}
+
+.tatarstan_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 83%;
+    left: 21%;
+    align-items: center;
+}
+.tatarstan_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.tatarstan_aria:hover .text{
+    opacity: 1;
+}
+.tatarstan_aria:hover .m-circle{
+    background-color: red;
+}
+
+.ukrain_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 81%;
+    left: 9%;
+    align-items: center;
+}
+.ukrain_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.ukrain_aria:hover .text{
+    opacity: 1;
+}
+.ukrain_aria:hover .m-circle{
+    background-color: red;
+}
+
+.chukotka_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 17%;
+    left: 49%;
+    align-items: center;
+}
+.chukotka_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.chukotka_aria:hover .text{
+    opacity: 1;
+}
+.chukotka_aria:hover .m-circle{
+    background-color: red;
+}
+
+.yakutia_aria{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    align-items: center;
+}
+.yakutia_aria .text{
+    background-color: #eeee;
+    border: 1px solid black;
+    padding: 5px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.yakutia_aria:hover .text{
+    opacity: 1;
+}
+.yakutia_aria:hover .m-circle{
+    background-color: red;
+}
